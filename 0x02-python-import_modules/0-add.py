@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-import add from add_0
-a = 1
-b = 2
-c = add(a, b)
-print(a "+" b "=" a + b)
+if __name__ == "__main__"
+from add_0 from add
+    a = 1
+    b = 2
+    c = add(a, b)
+    print("{} + {} = {}".format(a, b, c))
