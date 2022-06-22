@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """ class square with size defined by prev task"""
+
+
 class Square:
         """ the class sqaure"""
        
