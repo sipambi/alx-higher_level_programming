@@ -1,11 +1,11 @@
-i#!/usr/bin/python3
+#!/usr/bin/python3
 """
-
 class square with size defined by prev task
 -size property
 method of area and print square
 getters and setters
 """
+
 
 class Square:
     """ the class sqaure"""
