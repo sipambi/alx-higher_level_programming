@@ -34,7 +34,7 @@ class Rectangle:
             for j in range(self.__width):
                 rec_str += str(self.print_symbol)
                 rec_str += '\n'
-                return rec_str[:-1]
+        return rec_str[:-1]
 
     def __repr__(self):    
         """Return a string representation of a Rectangle instance
@@ -116,12 +116,12 @@ class Rectangle:
         if rect_1.area() < rect_2.area():
             return rect_2
 
-        @classmethod
-        def square(cls, size=0):
-            """Creates a new Rectangle instance with width == height == size
-            Args:
-                size: size to set the new rectangle to
-                Returns:
-                The new Rectangle instance
-            """
-            return cls(size, size)
+    @classmethod
+    def square(cls, size=0):
+        """Creates a new Rectangle instance with width == height == size
+        Args:
+            size: size to set the new rectangle to
+            Returns:
+            The new Rectangle instance
+        """
+        return cls(size, size)
