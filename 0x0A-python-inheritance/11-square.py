@@ -14,8 +14,8 @@ class Square(Rectangle):
             size (int): side of square
         Methods:
             __init__ - initialises the square
-     """
-     def __init__(self, size):
+    """
+    def __init__(self, size):
         """
             initialises Square
         """
@@ -31,4 +31,5 @@ class Square(Rectangle):
         return area
 
     def __str__(self):
-        return ("[{}] {}/{}".format(type(self).__name__, self.__size, self.__size))
+        return ("[{}] {}/{}".format(type(self).__name__,
+                                    self.__size, self.__size))
