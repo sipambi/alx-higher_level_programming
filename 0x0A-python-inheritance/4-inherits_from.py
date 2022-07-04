@@ -3,7 +3,6 @@
     4-inherits_from: inherits_from()
 """
 
-
 def inherits_from(obj, a_class):
     """ 
         inherits_from returns true if object is instance of a class
