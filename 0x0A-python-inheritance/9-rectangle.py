@@ -34,7 +34,8 @@ class Rectangle(BaseGeometry):
         return area
 
     def __str__(self):
-        """ 
-            returns a string of rectangle details
         """
-        return ("[{}] {}/{}".format(type(self).__name__, self.__width, self.__height))
+            retruns a string of rectangle details
+        """
+        return ("[{}] {}/{}".format(type(self).__name__,
+                                    self.__width, self.__height))
