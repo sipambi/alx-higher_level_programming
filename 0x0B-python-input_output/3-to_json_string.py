@@ -8,6 +8,6 @@ import json
 def to_json_string(my_obj):
     """ Returns JSON rep of an obj
         Args:
-            my_obj
+            my_obj: object to be represented
     """
     return json.dumps(my_obj)
