@@ -31,8 +31,7 @@ class TestBase(unittest.TestCase):
         """Test to_json_string and from_json_string methods"""
         dict1 = {'x': 2, 'width': 10, 'id': 1, 'height': 7, 'y': 8}
         json_dictionary = Base.to_json_string([dict1])
-        self.assertEqual(dict1, {'x': 2, 'width': 10, 'id': 1,
-                                 'height': 7, 'y': 8})
+        self.assertEqual(dict1, {'x': 2, 'width': 10, 'id': 1, 'height': 7, 'y': 8})
         self.assertEqual(Base.from_json_string(json_dictionary)[0], dict1)
         self.assertEqual(Base.from_json_string(None), [])
         self.assertEqual(Base.from_json_string([]), [])
@@ -43,8 +42,7 @@ class TestBase(unittest.TestCase):
         """Test that we conform to PEP8."""
         pep8style = pep8.StyleGuide(quiet=True)
         result = pep8style.check_files(['models/base.py'])
-        self.assertEqual(result.total_errors, 0,
-                         "Found code style errors (and warnings).")
+        self.assertEqual(result.total_errors, 0, "Found code style errors (and warnings).")
 
 
 if __name__ == "__main__":
