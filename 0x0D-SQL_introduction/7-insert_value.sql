@@ -1,4 +1,2 @@
--- display the no" of records with id = 89 in first_table of database hbtn_0c_0
-SELECT COUNT(*)
-FROM `first_table`
-WHERE `id` = 89;
+--  insert new row(id=89,name=Best School)in first_table(database hbtn_0c_0)
+INSERT INTO  first_table (id, name) VALUES (89, "Best School");
